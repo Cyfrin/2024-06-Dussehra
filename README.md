@@ -26,6 +26,9 @@ _This code was created for Codehawks as the first flight. It is made with bugs a
 _Don't use any part of this code without reviewing it and audit it._
 
 _Created by Naman Gautam_
+- [GitHub](https://github.com/Naman1729)
+- [Twitter](https://twitter.com/NamanGautam1729)
+- [LinkedIn](https://www.linkedin.com/in/naman-gautam-a8a81a253/)
 
 # About
 
