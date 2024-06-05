@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://allpngfree.com/apf-prod-storage-api/storage/thumbnails/god-ram-ai-png-transparent-image-download-thumbnail-1705730672.jpg" width="300" alt="Dussehra">
+<img src="https://res.cloudinary.com/droqoz7lg/image/upload/q_90/dpr_2.0/c_fill,g_auto,h_320,w_320/f_auto/v1/company/q441dznuxpiqbypx0ll8?_a=BATAUVAA0" width="300" alt="Dussehra">
 <br/>
 
 # Contest Details
