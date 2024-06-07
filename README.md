@@ -23,7 +23,7 @@
 ## Disclaimer
 
 _This code was created for Codehawks as the first flight. It is made with bugs and flaws on purpose._
-_Don't use any part of this code without reviewing it and audit it._
+_Don't use any part of this code without reviewing it and auditing it._
 
 _Created by Naman Gautam_
 - [GitHub](https://github.com/Naman1729)
@@ -32,30 +32,30 @@ _Created by Naman Gautam_
 
 # About
 
-- Dussehra, a major Hindu festival, commemorates the victory of Lord Rama, the seventh avatar of Vishnu, over the demon king Ravana. The festival symbolizes the victory of good over evil, righteousness over wickedness. According to the epic Ramayana, Ravana kidnaped Rama's wife, Sita, leading to a brutal battle between Rama and his allies against Ravana and his forces. After a ten-day battle, Rama emerged victorious by slaying Ravana, marking the victory of virtue and the restoration of dharma. Dussehra is celebrated with grand processions, reenactments of Rama's victory, and the burning of effigies of Ravana, symbolizing the destruction of evil forces. It signifies the enduring significance of courage, righteousness, and the eventual victory of light over darkness.
+- Dussehra, a major Hindu festival, commemorates the victory of Lord Rama, the seventh avatar of Vishnu, over the demon king Ravana. The festival symbolizes the victory of good over evil, righteousness over wickedness. According to the epic Ramayana, Ravana kidnaps Rama's wife, Sita, leading to a brutal battle between Rama and his allies against Ravana and his forces. After a ten-day battle, Rama emerged victorious by slaying Ravana, marking the victory of virtue and the restoration of dharma. Dussehra is celebrated with grand processions, reenactments of Rama's victory, and the burning of effigies of Ravana, symbolizing the destruction of evil forces. It signifies the enduring significance of courage, righteousness, and the eventual victory of light over darkness.
 
-- The `Dussehra` protocol allows user to participate in the event of Dussehra. The protocol is divided into three contracts: `ChoosingRam`, `Dussehra`, and `RamNFT`. The `ChoosingRam` contract allows users to increase their values and select Ram but only if they have not selected Ram before. The `Dussehra` contract allows users to enter the people who like Ram, kill Ravana, and withdraw their rewards. The `RamNFT` contract allows `Dussehra contract` to mint Ram NFTs, update the characteristics of the NFTs, and get the characteristics of the NFTs.
+- The `Dussehra` protocol allows users to participate in the event of Dussehra. The protocol is divided into three contracts: `ChoosingRam`, `Dussehra`, and `RamNFT`. The `ChoosingRam` contract allows users to increase their values and select Ram, but only if they have not selected Ram before. The `Dussehra` contract allows users to enter the people who like Ram, kill Ravana, and withdraw their rewards. The `RamNFT` contract allows the `Dussehra contract` to mint Ram NFTs, update the characteristics of the NFTs, and get the characteristics of the NFTs.
 
 ## ChoosingRam.sol
 
-This contract allows users to increase their values and select as Ram if all characteristics are true. if the user has not selected Ram before 12th October 2024. then, Organiser can select Ram if not selected.
+This contract allows users to increase their values and select Ram if all characteristics are true. If the user has not selected Ram before 12 October 2024, then the Organizer can select Ram if not selected.
 
-- `increaseValuesOfParticipants` - Allows users to increase their values(or characteristics) and become Ram for the event and never update the values again after 12th October 2024.
-- `selectRamIfNotSelected` - Allows the organiser to select Ram if not selected by the user.
+- `increaseValuesOfParticipants` allows users to increase their values(or characteristics) and become Ram for the event. The values will never be updated again after 12 October 2024.
+- `selectRamIfNotSelected` - Allows the organizer to select Ram if not selected by the user.
 
 ## Dussehra.sol
 
 This contract allows users to enter the people who like Ram, kill Ravana, and withdraw their rewards.
 
-- `enterPeopleWhoLikeRam` - Allows users to enter in the event like Ram by giving entry fee and receive the ramNFT.
-- `killRavana` - Allows users to kill Ravana and Organiser will get half of the total amount collected in the event. this function will only work after 12th October 2024 and before 13th October 2024.
+`enterPeopleWhoLikeRam` allows users to enter the event like Ram by paying an entry fee and receiving the ramNFT.
+- `killRavana`—Allows users to kill Ravana, and the Organizer will receive half of the total amount collected in the event. This function will only work after 12 October 2024 and before 13 October 2024.
 - `withdraw` - Allows ram to withdraw their rewards.
 
 ## RamNFT.sol
 
 This contract allows the Dussehra contract to mint Ram NFTs, update the characteristics of the NFTs, and get the characteristics of the NFTs.
 
-- `setChoosingRamContract` - Allows the organiser to set the choosingRam contract. 
+- `setChoosingRamContract` - Allows the organizer to set the choosingRam contract. 
 - `mintRamNFT` - Allows the Dussehra contract to mint Ram NFTs.
 - `updateCharacteristics` - Allows the ChoosingRam contract to update the characteristics of the NFTs. 
 - `getCharacteristics` - Allows the user to get the characteristics of the NFTs.
@@ -124,11 +124,11 @@ forge coverage --report debug
 
 # Roles
 
-Organiser - Organiser of the event and Owner of RamNFT contract
+Organizer - Organiser of the event and Owner of RamNFT contract
 
 User - User who wants to participate in the event 
 
-Ram - User who has selected Ram for the event
+Ram - The user who has selected Ram for the event
 
 # Known Issues
 
