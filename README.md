@@ -1,6 +1,6 @@
-<p align="center">
-<img src="https://res.cloudinary.com/droqoz7lg/image/upload/q_90/dpr_2.0/c_fill,g_auto,h_320,w_320/f_auto/v1/company/q441dznuxpiqbypx0ll8?_a=BATAUVAA0" width="300" alt="Dussehra">
-<br/>
+# First Flight #17: Dussehra
+
+[//]: # (contest-details-open)
 
 # Contest Details
 
@@ -17,8 +17,6 @@
 
 - nSLOC: 218
 - Complexity Score: 145
-
-# Dussehra
 
 ## Disclaimer
 
@@ -69,6 +67,18 @@ NFTs are minted with the following characteristics:
 - `isAatmavan`: false         // _Aatmavan means one who is self-controlled_
 - `isSatyavaakyah`: false     // _Satyavaakyah means one who speaks the truth_
 
+## Roles
+
+Organizer - Organiser of the event and Owner of RamNFT contract
+
+User - User who wants to participate in the event 
+
+Ram - The user who has selected Ram for the event
+
+[//]: # (contest-details-close)
+
+[//]: # (getting-started-open)
+
 # Getting Started
 
 ## Requirements
@@ -103,6 +113,10 @@ and for coverage based testing:
 forge coverage --report debug
 ```
 
+[//]: # (getting-started-close)
+
+[//]: # (scope-open)
+
 # Audit Scope Details
 - In Scope:
 
@@ -122,14 +136,12 @@ forge coverage --report debug
   - Arbitrum
   - BNB
 
-# Roles
+[//]: # (scope-close)
 
-Organizer - Organiser of the event and Owner of RamNFT contract
-
-User - User who wants to participate in the event 
-
-Ram - The user who has selected Ram for the event
+[//]: # (known-issues-open)
 
 # Known Issues
 
 None
+
+[//]: # (known-issues-close)
