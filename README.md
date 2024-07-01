@@ -1,7 +1,5 @@
 # First Flight #17: Dussehra
 
-[//]: # (contest-details-open)
-
 # Contest Details
 
 ### Prize Pool
@@ -17,6 +15,8 @@
 
 - nSLOC: 218
 - Complexity Score: 145
+
+[//]: # (contest-details-open)
 
 ## Disclaimer
 
